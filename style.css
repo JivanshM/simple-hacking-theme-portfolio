@@ -1,0 +1,139 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+@font-face {
+   font-family: hacked;
+   src: url(HACKED.ttf);
+}
+
+.bg{
+   background-image: url(matrix.gif);
+   
+}
+
+.container{
+   max-width: 1500px;
+     height: 600px;
+     border-radius: 50px;
+     position: relative;
+
+}
+
+.box{
+   background-color:rgba(12, 12, 12, 0.808);
+   height: 600x;
+   margin: 40px;
+   border-radius: 40px;
+   overflow: auto;
+   
+}
+
+.navbar{
+   background-color:rgb(16, 16, 16);
+   height: 70px;
+   padding-top:0;
+   width:100%;
+   max-width: 100%;
+   margin: auto;
+   box-sizing: border-box;
+   box-sizing: border-box;
+   top: 0;
+  z-index: 1;
+   position: absolute;
+   
+   
+}
+
+.navbar,.navlist{
+
+   display: flex;
+   
+   align-items: center;
+   
+   
+}
+
+
+
+.navlist{
+   
+   color: #39FF14;
+   font-size: 20px;
+   text-decoration: none;
+   padding: 15px;
+   margin-left: 1000px;
+
+}
+
+
+.logo{
+   position:relative;
+   top: 50px;
+   left: 20px;
+   font-family: hacked;
+   color:#39FF14;
+   font-size: 60px;
+   cursor:default;
+   margin-right: 850px;
+   padding-top: 10px;
+   transition-property: all;
+   transition-duration: 0s;
+   transition-timing-function: ease-in;
+
+}
+
+.logo:hover{
+   color: rgb(245, 7, 7);
+   
+  
+}
+
+.navlist li{
+   display: inline-block;
+   padding: 15px;
+
+   color: #39FF14;
+   font-family: 'Space Mono', monospace;
+   font-size: larger;
+   
+   position:relative;
+   list-style: none;  
+   bottom: 30px;
+}
+
+
+.profile{
+   
+   height: 300px;
+   width: 300px;
+   border-radius: 50%;
+   background-color: white;
+   margin-left: 120px;
+   bottom: 100px;
+   position: relative;
+   transition: box-shadow 1s ease-in;
+   transition: height width 0.5s ease-in;
+
+}
+
+.profile:hover{
+   box-shadow: 0 0 15px 5px #39FF14;
+   height: 350px;
+   width: 350px;
+}
+
+.content{
+   width: 570px;
+   height: 100px;
+   padding-left: 700px;
+   padding-top: 50px;
+}
+
+.p1{
+   color: red;
+   
+   
+}
